@@ -20,10 +20,14 @@ if (nodemailer) {
 }
 
 // SMS configuration (Twilio) - optional
-const twilioClient = twilio ? twilio(
-  process.env.TWILIO_ACCOUNT_SID,
-  process.env.TWILIO_AUTH_TOKEN
-) : null;
+let twilioClient = null;
+if (twilio && process.env.TWILIO_ACCOUNT_SID && process.env.TWILIO_AUTH_TOKEN) {
+  try {
+    twilioClient = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
+  } catch (error) {
+    console.warn('Twilio client failed to initialize:', error.message);
+  }
+}
 
 // Notification preferences storage (in production, use database)
 let adminNotificationSettings = {
