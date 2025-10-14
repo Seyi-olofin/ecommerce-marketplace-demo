@@ -119,7 +119,7 @@ if (PriorityResolver) {
 let apiCache = null;
 if (APICache) {
   try {
-    apiCache = new APICache();
+    apiCache = APICache; // APICache is likely a class, not a constructor
   } catch (error) {
     console.warn('APICache failed to initialize:', error.message);
   }

@@ -5,7 +5,14 @@ const connectDB = async () => {
     const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/ecommerce-marketplace';
 
     if (!mongoURI) {
-      throw new Error('❌ No MongoDB URI found. Please set MONGODB_URI in your .env file.');
+      console.warn('⚠️ No MongoDB URI found. Running without database connection.');
+      return;
+    }
+
+    // Validate MongoDB URI format
+    if (!mongoURI.startsWith('mongodb://') && !mongoURI.startsWith('mongodb+srv://')) {
+      console.warn('⚠️ Invalid MongoDB URI format. Expected to start with "mongodb://" or "mongodb+srv://". Running without database connection.');
+      return;
     }
 
     const conn = await mongoose.connect(mongoURI, {
@@ -20,7 +27,8 @@ const connectDB = async () => {
     console.log(`✅ MongoDB Connected Successfully: ${conn.connection.host}`);
   } catch (error) {
     console.error('❌ MongoDB Connection Error:', error.message);
-    process.exit(1); // stop the app completely if DB fails to connect
+    console.warn('⚠️ Continuing without database connection. Some features may not work.');
+    // Don't exit the process - let the app run without DB
   }
 };
 
