@@ -47,8 +47,10 @@ const notificationRoutes = require('./routes/notificationRoutes');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Connect to MongoDB
-connectDB();
+// Connect to MongoDB - optional
+connectDB().catch((error) => {
+  console.warn('MongoDB connection failed, continuing without database:', error.message);
+});
 
 // Auto-seed data if collections are empty (after connection is established)
 setTimeout(async () => {
