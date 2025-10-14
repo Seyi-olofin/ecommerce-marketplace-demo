@@ -1,0 +1,1385 @@
+[
+  {
+    "id": "mens-shirts-1",
+    "title": "Slim Fit Oxford Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 45.99,
+      "currency": "USD"
+    },
+    "description": "Classic slim fit cotton oxford shirt with a modern collar design. Perfect for casual and semi-formal occasions.",
+    "thumbnail": "/images/mens-shirts/shirt1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true,
+    "images": [
+      "/images/mens-shirts/shirt1.jpg",
+      "/images/mens-shirts/shirt1-2.jpg",
+      "/images/mens-shirts/shirt1-3.jpg"
+    ],
+    "specifications": {
+      "Material": "100% Cotton Oxford",
+      "Fit": "Slim Fit",
+      "Sleeve": "Long Sleeve",
+      "Collar": "Button-Down Collar",
+      "Care": "Machine Washable",
+      "Origin": "Made in USA"
+    },
+    "availability": {
+      "status": "in_stock",
+      "stock": 25
+    },
+    "brand": "Classic Wear",
+    "tags": ["casual", "formal", "cotton", "oxford"]
+  },
+  {
+    "id": "mens-shirts-2",
+    "title": "Casual Linen Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Lightweight linen shirt ideal for summer. Breathable, stylish, and comfortable.",
+    "thumbnail": "/images/mens-shirts/shirt2.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-3",
+    "title": "Men's Polo T-Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 29.99,
+      "currency": "USD"
+    },
+    "description": "Soft cotton polo t-shirt with embroidered logo. Casual, sporty, and versatile.",
+    "thumbnail": "/images/mens-shirts/shirt3.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-4",
+    "title": "Formal Dress Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 59.99,
+      "currency": "USD"
+    },
+    "description": "Premium cotton dress shirt with button-down collar. Perfect for business meetings and formal events.",
+    "thumbnail": "/images/mens-shirts/shirt4.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-5",
+    "title": "Denim Work Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Durable denim shirt with reinforced stitching. Great for work or casual wear.",
+    "thumbnail": "/images/mens-shirts/shirt5.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-6",
+    "title": "Hawaiian Print Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 34.99,
+      "currency": "USD"
+    },
+    "description": "Vibrant tropical print shirt made from breathable cotton. Perfect for vacation or casual outings.",
+    "thumbnail": "/images/mens-shirts/shirt6.jpg",
+    "rating": 4.2,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-7",
+    "title": "Long Sleeve Henley",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 42.99,
+      "currency": "USD"
+    },
+    "description": "Comfortable long sleeve henley shirt with three-button placket. Versatile for layering.",
+    "thumbnail": "/images/mens-shirts/shirt7.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-8",
+    "title": "Flannel Plaid Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 52.99,
+      "currency": "USD"
+    },
+    "description": "Classic flannel plaid shirt with button cuffs. Warm and stylish for cooler weather.",
+    "thumbnail": "/images/mens-shirts/shirt8.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-9",
+    "title": "Athletic Performance Shirt",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 37.99,
+      "currency": "USD"
+    },
+    "description": "Moisture-wicking athletic shirt with UV protection. Perfect for sports and outdoor activities.",
+    "thumbnail": "/images/mens-shirts/shirt9.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "mens-shirts-10",
+    "title": "Vintage Style Tee",
+    "category": "mens-shirts",
+    "price": {
+      "amount": 27.99,
+      "currency": "USD"
+    },
+    "description": "Retro-inspired t-shirt with vintage wash. Comfortable cotton blend for everyday wear.",
+    "thumbnail": "/images/mens-shirts/shirt10.jpg",
+    "rating": 4.1,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-1",
+    "title": "Gaming Laptop 16GB RAM",
+    "category": "laptops",
+    "price": {
+      "amount": 1299.99,
+      "currency": "USD"
+    },
+    "description": "High-performance gaming laptop with 16GB RAM, NVIDIA graphics, and SSD storage. Perfect for gamers and creatives.",
+    "thumbnail": "/images/laptops/laptop1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true,
+    "images": [
+      "/images/laptops/laptop1.jpg",
+      "/images/laptops/laptop1-2.jpg",
+      "/images/laptops/laptop1-3.jpg",
+      "/images/laptops/laptop1-4.jpg"
+    ],
+    "specifications": {
+      "Processor": "Intel Core i7-11800H",
+      "RAM": "16GB DDR4",
+      "Storage": "512GB SSD",
+      "Graphics": "NVIDIA RTX 3060 6GB",
+      "Display": "15.6\" FHD 144Hz",
+      "OS": "Windows 11 Home",
+      "Battery": "4-cell 70Wh",
+      "Weight": "2.3 kg"
+    },
+    "availability": {
+      "status": "in_stock",
+      "stock": 8
+    },
+    "brand": "GamingPro",
+    "tags": ["gaming", "high-performance", "nvidia", "ssd"]
+  },
+  {
+    "id": "laptops-2",
+    "title": "Ultrabook Laptop 8GB RAM",
+    "category": "laptops",
+    "price": {
+      "amount": 899.99,
+      "currency": "USD"
+    },
+    "description": "Lightweight ultrabook with 8GB RAM, sleek design, and all-day battery life. Ideal for work and travel.",
+    "thumbnail": "/images/laptops/laptop2.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-3",
+    "title": "Business Laptop 16GB RAM",
+    "category": "laptops",
+    "price": {
+      "amount": 1199.99,
+      "currency": "USD"
+    },
+    "description": "Professional laptop with 16GB RAM, full HD display, and premium build quality. Perfect for business professionals.",
+    "thumbnail": "/images/laptops/laptop3.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-4",
+    "title": "Student Laptop 8GB RAM",
+    "category": "laptops",
+    "price": {
+      "amount": 699.99,
+      "currency": "USD"
+    },
+    "description": "Affordable laptop for students with 8GB RAM, good battery life, and essential features for school work.",
+    "thumbnail": "/images/laptops/laptop4.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-5",
+    "title": "2-in-1 Convertible Laptop",
+    "category": "laptops",
+    "price": {
+      "amount": 1099.99,
+      "currency": "USD"
+    },
+    "description": "Versatile 2-in-1 laptop that converts to tablet mode. Touchscreen display and stylus support.",
+    "thumbnail": "/images/laptops/laptop5.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-6",
+    "title": "Chromebook 4GB RAM",
+    "category": "laptops",
+    "price": {
+      "amount": 399.99,
+      "currency": "USD"
+    },
+    "description": "Lightweight Chromebook with 4GB RAM, fast boot times, and cloud-based computing. Great for basic tasks.",
+    "thumbnail": "/images/laptops/laptop6.jpg",
+    "rating": 4.2,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-7",
+    "title": "High-End Workstation Laptop",
+    "category": "laptops",
+    "price": {
+      "amount": 2499.99,
+      "currency": "USD"
+    },
+    "description": "Powerful workstation laptop with 32GB RAM, professional graphics card, and workstation-grade performance.",
+    "thumbnail": "/images/laptops/laptop7.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-8",
+    "title": "Budget Laptop 4GB RAM",
+    "category": "laptops",
+    "price": {
+      "amount": 349.99,
+      "currency": "USD"
+    },
+    "description": "Entry-level laptop with 4GB RAM and basic features. Perfect for web browsing and light tasks.",
+    "thumbnail": "/images/laptops/laptop8.jpg",
+    "rating": 4.0,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-9",
+    "title": "Gaming Laptop RGB Keyboard",
+    "category": "laptops",
+    "price": {
+      "amount": 1499.99,
+      "currency": "USD"
+    },
+    "description": "RGB gaming laptop with customizable keyboard lighting, high-refresh-rate display, and premium cooling.",
+    "thumbnail": "/images/laptops/laptop9.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "laptops-10",
+    "title": "MacBook Air Clone",
+    "category": "laptops",
+    "price": {
+      "amount": 799.99,
+      "currency": "USD"
+    },
+    "description": "Ultra-thin laptop inspired by MacBook Air with 8GB RAM, SSD storage, and all-day battery life.",
+    "thumbnail": "/images/laptops/laptop10.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-1",
+    "title": "Women's Summer Dress",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 59.99,
+      "currency": "USD"
+    },
+    "description": "Floral summer dress with light fabric, perfect for casual outings and beach days.",
+    "thumbnail": "/images/womens-fashion/dress1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-2",
+    "title": "Luxury Handbag",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 120.00,
+      "currency": "USD"
+    },
+    "description": "Elegant leather handbag with gold hardware. Stylish and functional for daily use.",
+    "thumbnail": "/images/womens-fashion/handbag1.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-3",
+    "title": "Women's Blouse",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Chic silk blouse with delicate embroidery. Perfect for work or evening events.",
+    "thumbnail": "/images/womens-fashion/blouse1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-4",
+    "title": "Designer Jeans",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 89.99,
+      "currency": "USD"
+    },
+    "description": "Premium denim jeans with perfect fit and high-quality stitching. A wardrobe essential.",
+    "thumbnail": "/images/womens-fashion/jeans1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-5",
+    "title": "Evening Gown",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 199.99,
+      "currency": "USD"
+    },
+    "description": "Elegant evening gown with sequin details. Perfect for formal occasions and parties.",
+    "thumbnail": "/images/womens-fashion/gown1.jpg",
+    "rating": 4.9,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-6",
+    "title": "Casual Sneakers",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 79.99,
+      "currency": "USD"
+    },
+    "description": "Comfortable canvas sneakers with rubber sole. Great for everyday wear and light activities.",
+    "thumbnail": "/images/womens-fashion/sneakers1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-7",
+    "title": "Winter Coat",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 149.99,
+      "currency": "USD"
+    },
+    "description": "Warm wool coat with belt and classic design. Perfect for cold weather.",
+    "thumbnail": "/images/womens-fashion/coat1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-8",
+    "title": "Silk Scarf",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 45.99,
+      "currency": "USD"
+    },
+    "description": "Luxurious silk scarf with beautiful print. Adds elegance to any outfit.",
+    "thumbnail": "/images/womens-fashion/scarf1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-9",
+    "title": "Leather Boots",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 129.99,
+      "currency": "USD"
+    },
+    "description": "Genuine leather boots with heel. Stylish and durable for all seasons.",
+    "thumbnail": "/images/womens-fashion/boots1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "womens-fashion-10",
+    "title": "Cotton T-Shirt",
+    "category": "womens-fashion",
+    "price": {
+      "amount": 24.99,
+      "currency": "USD"
+    },
+    "description": "Soft cotton t-shirt with comfortable fit. Essential basic for every wardrobe.",
+    "thumbnail": "/images/womens-fashion/tshirt1.jpg",
+    "rating": 4.2,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-1",
+    "title": "Hydrating Face Cream",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 24.99,
+      "currency": "USD"
+    },
+    "description": "Rich moisturizing cream with hyaluronic acid and vitamin E. Keeps skin hydrated and smooth.",
+    "thumbnail": "/images/beauty-skincare/cream1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-2",
+    "title": "Luxury Perfume",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Refreshing fragrance with floral notes. Long-lasting scent for everyday wear.",
+    "thumbnail": "/images/beauty-skincare/perfume1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-3",
+    "title": "Anti-Aging Serum",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Advanced serum with retinol and peptides. Reduces fine lines and improves skin texture.",
+    "thumbnail": "/images/beauty-skincare/serum1.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-4",
+    "title": "Gentle Cleanser",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 18.99,
+      "currency": "USD"
+    },
+    "description": "Mild foaming cleanser that removes impurities without stripping natural oils.",
+    "thumbnail": "/images/beauty-skincare/cleanser1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-5",
+    "title": "Vitamin C Brightening Mask",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 29.99,
+      "currency": "USD"
+    },
+    "description": "Brightening face mask with vitamin C and fruit extracts. Evens skin tone and boosts radiance.",
+    "thumbnail": "/images/beauty-skincare/mask1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-6",
+    "title": "Nourishing Body Lotion",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 22.99,
+      "currency": "USD"
+    },
+    "description": "Deeply moisturizing body lotion with shea butter and essential oils. Leaves skin soft and hydrated.",
+    "thumbnail": "/images/beauty-skincare/lotion1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-7",
+    "title": "Eye Cream",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 34.99,
+      "currency": "USD"
+    },
+    "description": "Specialized cream for the delicate eye area. Reduces puffiness and dark circles.",
+    "thumbnail": "/images/beauty-skincare/eye-cream1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-8",
+    "title": "Sunscreen SPF 50",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 26.99,
+      "currency": "USD"
+    },
+    "description": "Broad-spectrum sunscreen with SPF 50. Protects against UVA and UVB rays.",
+    "thumbnail": "/images/beauty-skincare/sunscreen1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-9",
+    "title": "Lip Balm",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 8.99,
+      "currency": "USD"
+    },
+    "description": "Moisturizing lip balm with beeswax and essential oils. Protects and softens lips.",
+    "thumbnail": "/images/beauty-skincare/lip-balm1.jpg",
+    "rating": 4.2,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "beauty-skincare-10",
+    "title": "Facial Toner",
+    "category": "beauty-skincare",
+    "price": {
+      "amount": 19.99,
+      "currency": "USD"
+    },
+    "description": "Refreshing toner that balances pH and prepares skin for moisturizer.",
+    "thumbnail": "/images/beauty-skincare/toner1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-1",
+    "title": "Ceramic Dinner Set",
+    "category": "home-garden",
+    "price": {
+      "amount": 89.99,
+      "currency": "USD"
+    },
+    "description": "Elegant 16-piece ceramic dinner set. Perfect for everyday meals and special occasions.",
+    "thumbnail": "/images/home-garden/dinner-set1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-2",
+    "title": "Decorative Throw Pillow",
+    "category": "home-garden",
+    "price": {
+      "amount": 29.99,
+      "currency": "USD"
+    },
+    "description": "Soft decorative pillow with modern pattern. Adds comfort and style to any room.",
+    "thumbnail": "/images/home-garden/pillow1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-3",
+    "title": "Indoor Plant Pot",
+    "category": "home-garden",
+    "price": {
+      "amount": 24.99,
+      "currency": "USD"
+    },
+    "description": "Ceramic plant pot with drainage hole. Perfect for indoor plants and herbs.",
+    "thumbnail": "/images/home-garden/plant-pot1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-4",
+    "title": "Kitchen Utensil Set",
+    "category": "home-garden",
+    "price": {
+      "amount": 34.99,
+      "currency": "USD"
+    },
+    "description": "Essential kitchen utensils set including spatula, whisk, and tongs. Stainless steel construction.",
+    "thumbnail": "/images/home-garden/utensils1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-5",
+    "title": "Wall Art Canvas",
+    "category": "home-garden",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Beautiful landscape canvas print. Adds warmth and character to living spaces.",
+    "thumbnail": "/images/home-garden/canvas1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-6",
+    "title": "Garden Hose",
+    "category": "home-garden",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Durable garden hose with brass fittings. 50 feet length, perfect for lawn and garden watering.",
+    "thumbnail": "/images/home-garden/hose1.jpg",
+    "rating": 4.2,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-7",
+    "title": "Bedroom Lamp",
+    "category": "home-garden",
+    "price": {
+      "amount": 59.99,
+      "currency": "USD"
+    },
+    "description": "Modern bedside lamp with adjustable brightness. Creates perfect ambiance for reading.",
+    "thumbnail": "/images/home-garden/lamp1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-8",
+    "title": "Storage Basket",
+    "category": "home-garden",
+    "price": {
+      "amount": 19.99,
+      "currency": "USD"
+    },
+    "description": "Woven storage basket for organizing closets, shelves, or bathrooms. Durable and stylish.",
+    "thumbnail": "/images/home-garden/basket1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-9",
+    "title": "Coffee Table Book",
+    "category": "home-garden",
+    "price": {
+      "amount": 44.99,
+      "currency": "USD"
+    },
+    "description": "Beautiful photography book showcasing world architecture. Perfect coffee table display.",
+    "thumbnail": "/images/home-garden/book1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "home-garden-10",
+    "title": "Aromatherapy Diffuser",
+    "category": "home-garden",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Ultrasonic essential oil diffuser with LED lights. Creates relaxing atmosphere with soothing scents.",
+    "thumbnail": "/images/home-garden/diffuser1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-1",
+    "title": "Wireless Bluetooth Headphones",
+    "category": "electronics",
+    "price": {
+      "amount": 79.99,
+      "currency": "USD"
+    },
+    "description": "Premium wireless headphones with noise cancellation and 30-hour battery life. Crystal clear sound quality.",
+    "thumbnail": "/images/electronics/headphones1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-2",
+    "title": "Smart Watch",
+    "category": "electronics",
+    "price": {
+      "amount": 199.99,
+      "currency": "USD"
+    },
+    "description": "Feature-rich smartwatch with heart rate monitoring, GPS, and fitness tracking. Compatible with iOS and Android.",
+    "thumbnail": "/images/electronics/smartwatch1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-3",
+    "title": "Wireless Charging Pad",
+    "category": "electronics",
+    "price": {
+      "amount": 29.99,
+      "currency": "USD"
+    },
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Sleek design with LED indicator.",
+    "thumbnail": "/images/electronics/charger1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-4",
+    "title": "Portable Power Bank",
+    "category": "electronics",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "20000mAh power bank with fast charging capability. Charges multiple devices simultaneously.",
+    "thumbnail": "/images/electronics/powerbank1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-5",
+    "title": "Bluetooth Speaker",
+    "category": "electronics",
+    "price": {
+      "amount": 59.99,
+      "currency": "USD"
+    },
+    "description": "Waterproof Bluetooth speaker with 360-degree sound and 12-hour battery life. Perfect for outdoor use.",
+    "thumbnail": "/images/electronics/speaker1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-6",
+    "title": "USB-C Hub",
+    "category": "electronics",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Multi-port USB-C hub with HDMI, USB-A, and SD card slots. Expands connectivity for laptops.",
+    "thumbnail": "/images/electronics/hub1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-7",
+    "title": "Gaming Mouse",
+    "category": "electronics",
+    "price": {
+      "amount": 69.99,
+      "currency": "USD"
+    },
+    "description": "High-precision gaming mouse with customizable RGB lighting and programmable buttons.",
+    "thumbnail": "/images/electronics/mouse1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-8",
+    "title": "LED Desk Lamp",
+    "category": "electronics",
+    "price": {
+      "amount": 34.99,
+      "currency": "USD"
+    },
+    "description": "Adjustable LED desk lamp with multiple brightness levels and USB charging port.",
+    "thumbnail": "/images/electronics/lamp1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-9",
+    "title": "Wireless Earbuds",
+    "category": "electronics",
+    "price": {
+      "amount": 89.99,
+      "currency": "USD"
+    },
+    "description": "True wireless earbuds with active noise cancellation and touch controls. Premium sound quality.",
+    "thumbnail": "/images/electronics/earbuds1.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-10",
+    "title": "Digital Photo Frame",
+    "category": "electronics",
+    "price": {
+      "amount": 79.99,
+      "currency": "USD"
+    },
+    "description": "8-inch digital photo frame with WiFi connectivity. Display your favorite memories in style.",
+    "thumbnail": "/images/electronics/frame1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-1",
+    "title": "Yoga Mat",
+    "category": "sports",
+    "price": {
+      "amount": 29.99,
+      "currency": "USD"
+    },
+    "description": "Non-slip yoga mat with carrying strap. Perfect for yoga, pilates, and floor exercises.",
+    "thumbnail": "/images/sports/yoga-mat1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-2",
+    "title": "Dumbbell Set",
+    "category": "sports",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Adjustable dumbbell set with weights from 5-25 lbs. Perfect for home workouts.",
+    "thumbnail": "/images/sports/dumbbells1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-3",
+    "title": "Running Shoes",
+    "category": "sports",
+    "price": {
+      "amount": 89.99,
+      "currency": "USD"
+    },
+    "description": "Lightweight running shoes with cushioning and breathable mesh. Designed for comfort and performance.",
+    "thumbnail": "/images/sports/shoes1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-4",
+    "title": "Fitness Resistance Bands",
+    "category": "sports",
+    "price": {
+      "amount": 24.99,
+      "currency": "USD"
+    },
+    "description": "Set of 5 resistance bands with different strengths. Great for strength training and rehabilitation.",
+    "thumbnail": "/images/sports/bands1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-5",
+    "title": "Basketball",
+    "category": "sports",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Official size basketball with composite leather cover. Excellent grip and durability.",
+    "thumbnail": "/images/sports/basketball1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-6",
+    "title": "Tennis Racket",
+    "category": "sports",
+    "price": {
+      "amount": 79.99,
+      "currency": "USD"
+    },
+    "description": "Lightweight tennis racket with oversized head. Perfect for beginners and intermediate players.",
+    "thumbnail": "/images/sports/racket1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-7",
+    "title": "Swimming Goggles",
+    "category": "sports",
+    "price": {
+      "amount": 19.99,
+      "currency": "USD"
+    },
+    "description": "Anti-fog swimming goggles with UV protection. Comfortable fit for extended swimming sessions.",
+    "thumbnail": "/images/sports/goggles1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-8",
+    "title": "Cycling Helmet",
+    "category": "sports",
+    "price": {
+      "amount": 59.99,
+      "currency": "USD"
+    },
+    "description": "Aerodynamic cycling helmet with ventilation and adjustable fit. Safety and comfort combined.",
+    "thumbnail": "/images/sports/helmet1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-9",
+    "title": "Golf Driver",
+    "category": "sports",
+    "price": {
+      "amount": 149.99,
+      "currency": "USD"
+    },
+    "description": "High-performance golf driver with titanium head. Increases distance and accuracy.",
+    "thumbnail": "/images/sports/driver1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "sports-10",
+    "title": "Boxing Gloves",
+    "category": "sports",
+    "price": {
+      "amount": 44.99,
+      "currency": "USD"
+    },
+    "description": "Professional boxing gloves with wrist support. Perfect for training and sparring.",
+    "thumbnail": "/images/sports/gloves1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "automotive-1",
+    "title": "Car Tire Set",
+    "category": "automotive",
+    "price": {
+      "amount": 299.99,
+      "currency": "USD"
+    },
+    "description": "High-performance all-season tires for passenger vehicles. Excellent traction and durability.",
+    "thumbnail": "/images/automotive/tires1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "automotive-2",
+    "title": "Engine Oil Filter",
+    "category": "automotive",
+    "price": {
+      "amount": 12.99,
+      "currency": "USD"
+    },
+    "description": "Premium oil filter for optimal engine protection and performance.",
+    "thumbnail": "/images/automotive/oil-filter1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "automotive-3",
+    "title": "Car Battery",
+    "category": "automotive",
+    "price": {
+      "amount": 89.99,
+      "currency": "USD"
+    },
+    "description": "Heavy-duty car battery with long-lasting power and reliable starting.",
+    "thumbnail": "/images/automotive/battery1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "motorcycle-1",
+    "title": "Motorcycle Helmet",
+    "category": "motorcycle",
+    "price": {
+      "amount": 149.99,
+      "currency": "USD"
+    },
+    "description": "Full-face motorcycle helmet with advanced safety features and ventilation.",
+    "thumbnail": "/images/motorcycle/helmet1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "motorcycle-2",
+    "title": "Motorcycle Gloves",
+    "category": "motorcycle",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Protective riding gloves with reinforced palms and weather resistance.",
+    "thumbnail": "/images/motorcycle/gloves1.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "motorcycle-3",
+    "title": "Motorcycle Chain",
+    "category": "motorcycle",
+    "price": {
+      "amount": 79.99,
+      "currency": "USD"
+    },
+    "description": "High-quality motorcycle drive chain with master link for easy installation.",
+    "thumbnail": "/images/motorcycle/chain1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "shoes-1",
+    "title": "Running Sneakers",
+    "category": "shoes",
+    "price": {
+      "amount": 89.99,
+      "currency": "USD"
+    },
+    "description": "Lightweight running sneakers with advanced cushioning and breathable mesh upper. Perfect for jogging and daily runs.",
+    "thumbnail": "/images/shoes/running1.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true,
+    "images": [
+      "/images/shoes/running1.jpg",
+      "/images/shoes/running1-2.jpg",
+      "/images/shoes/running1-3.jpg"
+    ],
+    "specifications": {
+      "Type": "Running Shoes",
+      "Material": "Mesh upper with synthetic overlays",
+      "Sole": "EVA foam cushioning",
+      "Closure": "Lace-up",
+      "Weight": "280g (per shoe)",
+      "Sizes": "US 6-14",
+      "Colors": "Black/White, Blue/White, Red/White",
+      "Technology": "Air cushioning system",
+      "Water Resistance": "Water-repellent upper"
+    },
+    "availability": {
+      "status": "in_stock",
+      "stock": 35
+    },
+    "brand": "RunPro",
+    "tags": ["running", "sneakers", "athletic", "cushioning", "breathable"]
+  },
+  {
+    "id": "shoes-2",
+    "title": "Casual Canvas Shoes",
+    "category": "shoes",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD"
+    },
+    "description": "Classic canvas sneakers with rubber sole. Comfortable and versatile for everyday wear.",
+    "thumbnail": "/images/shoes/canvas1.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "shoes-3",
+    "title": "Hiking Boots",
+    "category": "shoes",
+    "price": {
+      "amount": 129.99,
+      "currency": "USD"
+    },
+    "description": "Durable hiking boots with waterproof membrane and ankle support. Ideal for outdoor adventures.",
+    "thumbnail": "/images/shoes/hiking1.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "shoes-4",
+    "title": "Dress Shoes",
+    "category": "shoes",
+    "price": {
+      "amount": 149.99,
+      "currency": "USD"
+    },
+    "description": "Elegant leather dress shoes with polished finish. Perfect for formal occasions and business attire.",
+    "thumbnail": "/images/shoes/dress1.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "shoes-5",
+    "title": "Sandals",
+    "category": "shoes",
+    "price": {
+      "amount": 39.99,
+      "currency": "USD"
+    },
+    "description": "Comfortable leather sandals with adjustable straps. Great for summer and casual outings.",
+    "thumbnail": "/images/shoes/sandals1.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-11",
+    "title": "55-inch 4K Smart TV",
+    "category": "electronics",
+    "price": {
+      "amount": 599.99,
+      "currency": "USD"
+    },
+    "description": "55-inch 4K UHD Smart TV with HDR, built-in streaming apps, and voice control. Crystal clear picture quality.",
+    "thumbnail": "/images/electronics/tv1.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true,
+    "images": [
+      "/images/electronics/tv1.jpg",
+      "/images/electronics/tv1-2.jpg",
+      "/images/electronics/tv1-3.jpg"
+    ],
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Display Technology": "LED",
+      "HDR": "HDR10, HLG",
+      "Smart Platform": "Android TV",
+      "Voice Control": "Google Assistant, Alexa",
+      "Connectivity": "4x HDMI, 2x USB, WiFi, Bluetooth",
+      "Refresh Rate": "60Hz",
+      "Dimensions": "48.9 x 28.1 x 3.1 inches",
+      "Weight": "28.7 lbs"
+    },
+    "availability": {
+      "status": "in_stock",
+      "stock": 12
+    },
+    "brand": "SmartView",
+    "tags": ["tv", "4k", "smart-tv", "hdr", "streaming"]
+  },
+  {
+    "id": "electronics-12",
+    "title": "65-inch OLED TV",
+    "category": "electronics",
+    "price": {
+      "amount": 1299.99,
+      "currency": "USD"
+    },
+    "description": "65-inch OLED Smart TV with perfect blacks, vibrant colors, and smart platform integration.",
+    "thumbnail": "/images/electronics/tv2.jpg",
+    "rating": 4.9,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-13",
+    "title": "43-inch Full HD TV",
+    "category": "electronics",
+    "price": {
+      "amount": 349.99,
+      "currency": "USD"
+    },
+    "description": "43-inch Full HD Smart TV with multiple HDMI ports and built-in streaming services. Great value for money.",
+    "thumbnail": "/images/electronics/tv3.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-14",
+    "title": "75-inch 8K TV",
+    "category": "electronics",
+    "price": {
+      "amount": 2499.99,
+      "currency": "USD"
+    },
+    "description": "75-inch 8K Ultra HD Smart TV with quantum dot technology and premium sound system. Ultimate viewing experience.",
+    "thumbnail": "/images/electronics/tv4.jpg",
+    "rating": 4.9,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-15",
+    "title": "32-inch HD TV",
+    "category": "electronics",
+    "price": {
+      "amount": 199.99,
+      "currency": "USD"
+    },
+    "description": "32-inch HD Smart TV perfect for bedrooms or small spaces. Energy efficient with multiple connectivity options.",
+    "thumbnail": "/images/electronics/tv5.jpg",
+    "rating": 4.3,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-16",
+    "title": "iPhone 15 Pro",
+    "category": "electronics",
+    "price": {
+      "amount": 999.99,
+      "currency": "USD"
+    },
+    "description": "Latest iPhone 15 Pro with titanium design, A17 Pro chip, and advanced camera system. Professional-grade photography.",
+    "thumbnail": "/images/electronics/iphone15.jpg",
+    "rating": 4.8,
+    "source": "local",
+    "isActive": true,
+    "images": [
+      "/images/electronics/iphone15.jpg",
+      "/images/electronics/iphone15-2.jpg",
+      "/images/electronics/iphone15-3.jpg",
+      "/images/electronics/iphone15-4.jpg"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR OLED",
+      "Processor": "A17 Pro chip",
+      "Storage": "128GB",
+      "Camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+      "Battery": "Up to 23 hours video playback",
+      "OS": "iOS 17",
+      "Dimensions": "146.6 x 70.6 x 8.25 mm",
+      "Weight": "187 grams",
+      "Colors": "Natural Titanium, Blue Titanium, White Titanium, Black Titanium"
+    },
+    "availability": {
+      "status": "in_stock",
+      "stock": 15
+    },
+    "brand": "Apple",
+    "tags": ["smartphone", "iphone", "premium", "camera", "titanium"]
+  },
+  {
+    "id": "electronics-17",
+    "title": "Samsung Galaxy S24",
+    "category": "electronics",
+    "price": {
+      "amount": 799.99,
+      "currency": "USD"
+    },
+    "description": "Samsung Galaxy S24 with AI features, 200MP camera, and S Pen compatibility. Powerful and versatile smartphone.",
+    "thumbnail": "/images/electronics/galaxy-s24.jpg",
+    "rating": 4.7,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-18",
+    "title": "Google Pixel 8",
+    "category": "electronics",
+    "price": {
+      "amount": 699.99,
+      "currency": "USD"
+    },
+    "description": "Google Pixel 8 with computational photography, 7 years of updates, and pure Android experience.",
+    "thumbnail": "/images/electronics/pixel8.jpg",
+    "rating": 4.6,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-19",
+    "title": "OnePlus 12",
+    "category": "electronics",
+    "price": {
+      "amount": 599.99,
+      "currency": "USD"
+    },
+    "description": "OnePlus 12 with 100W fast charging, Hasselblad camera, and smooth OxygenOS experience.",
+    "thumbnail": "/images/electronics/oneplus12.jpg",
+    "rating": 4.5,
+    "source": "local",
+    "isActive": true
+  },
+  {
+    "id": "electronics-20",
+    "title": "Xiaomi 14",
+    "category": "electronics",
+    "price": {
+      "amount": 499.99,
+      "currency": "USD"
+    },
+    "description": "Xiaomi 14 with Leica optics, Snapdragon 8 Gen 3, and excellent value for money.",
+    "thumbnail": "/images/electronics/xiaomi14.jpg",
+    "rating": 4.4,
+    "source": "local",
+    "isActive": true
+  }
+]

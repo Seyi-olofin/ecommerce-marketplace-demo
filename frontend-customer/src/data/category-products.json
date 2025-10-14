@@ -1,0 +1,751 @@
+{
+  "fashion": [
+    {
+      "id": "fashion_1",
+      "name": "Elegant Evening Gown",
+      "price": 299.99,
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop",
+      "description": "Stunning floor-length evening gown with intricate beading and flowing silhouette, perfect for formal events and special occasions."
+    },
+    {
+      "id": "fashion_2",
+      "name": "Designer Leather Handbag",
+      "price": 189.99,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
+      "description": "Luxury leather handbag with gold hardware and structured design, ideal for both casual and professional settings."
+    },
+    {
+      "id": "fashion_3",
+      "name": "Silk Blouse Collection",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=400&fit=crop",
+      "description": "Premium silk blouse with delicate embroidery and comfortable fit, perfect for professional and casual wear."
+    },
+    {
+      "id": "fashion_4",
+      "name": "High-Waisted Jeans",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+      "description": "Classic high-waisted jeans with perfect fit and premium denim construction for all-day comfort."
+    },
+    {
+      "id": "fashion_5",
+      "name": "Cashmere Sweater",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400&h=400&fit=crop",
+      "description": "Ultra-soft cashmere sweater with elegant neckline and luxurious feel, perfect for layering."
+    },
+    {
+      "id": "fashion_6",
+      "name": "Leather Ankle Boots",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop",
+      "description": "Genuine leather ankle boots with comfortable fit and timeless design for versatile styling."
+    },
+    {
+      "id": "fashion_7",
+      "name": "Designer Sunglasses",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
+      "description": "Premium designer sunglasses with UV protection and contemporary frame design."
+    },
+    {
+      "id": "fashion_8",
+      "name": "Cotton Summer Dress",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=400&fit=crop",
+      "description": "Light and breezy cotton summer dress with floral patterns, perfect for warm weather."
+    },
+    {
+      "id": "fashion_9",
+      "name": "Tailored Blazer",
+      "price": 159.99,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "description": "Professional tailored blazer with structured shoulders and versatile styling options."
+    },
+    {
+      "id": "fashion_10",
+      "name": "Silk Scarf Collection",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1601762603332-db5e4b90cca7?w=400&h=400&fit=crop",
+      "description": "Luxurious silk scarf with artistic patterns, perfect accessory for any outfit."
+    },
+    {
+      "id": "fashion_11",
+      "name": "Denim Jacket",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=400&h=400&fit=crop",
+      "description": "Classic denim jacket with distressed details and comfortable fit for casual styling."
+    },
+    {
+      "id": "fashion_12",
+      "name": "Pearl Necklace Set",
+      "price": 119.99,
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+      "description": "Elegant pearl necklace set with matching earrings, perfect for formal occasions."
+    },
+    {
+      "id": "fashion_13",
+      "name": "Wool Coat",
+      "price": 249.99,
+      "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400&h=400&fit=crop",
+      "description": "Warm wool coat with belted waist and classic design for winter elegance."
+    },
+    {
+      "id": "fashion_14",
+      "name": "Athletic Leggings",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1506629905607-0b5ab9a9e21a?w=400&h=400&fit=crop",
+      "description": "High-performance athletic leggings with moisture-wicking fabric and comfortable fit."
+    },
+    {
+      "id": "fashion_15",
+      "name": "Embroidered Kimono",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop",
+      "description": "Beautiful embroidered kimono with traditional patterns, perfect for layering or as a cover-up."
+    }
+  ],
+  "electronics": [
+    {
+      "id": "electronics_1",
+      "name": "Wireless Bluetooth Headphones",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+      "description": "Premium noise-cancelling wireless headphones with 30-hour battery life and superior sound quality."
+    },
+    {
+      "id": "electronics_2",
+      "name": "Smartphone 128GB",
+      "price": 699.99,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+      "description": "Latest smartphone with advanced camera system, fast processor, and all-day battery life."
+    },
+    {
+      "id": "electronics_3",
+      "name": "4K Smart TV 55\"",
+      "price": 899.99,
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+      "description": "Ultra HD 4K television with smart features, voice control, and stunning picture quality."
+    },
+    {
+      "id": "electronics_4",
+      "name": "Gaming Mouse RGB",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=400&fit=crop",
+      "description": "Professional gaming mouse with customizable RGB lighting and precision tracking."
+    },
+    {
+      "id": "electronics_5",
+      "name": "Wireless Charging Pad",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&h=400&fit=crop",
+      "description": "Fast wireless charging pad compatible with all Qi-enabled devices."
+    },
+    {
+      "id": "electronics_6",
+      "name": "Bluetooth Speaker Portable",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
+      "description": "Waterproof portable speaker with 360-degree sound and 12-hour battery life."
+    },
+    {
+      "id": "electronics_7",
+      "name": "Smart Home Hub",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop",
+      "description": "Central smart home controller with voice assistant and device automation."
+    },
+    {
+      "id": "electronics_8",
+      "name": "External SSD 1TB",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1606230960217-b5f00aa13c84?w=400&h=400&fit=crop",
+      "description": "Ultra-fast external SSD with USB-C connectivity and shock resistance."
+    },
+    {
+      "id": "electronics_9",
+      "name": "LED Desk Lamp",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "description": "Adjustable LED desk lamp with multiple brightness levels and USB charging port."
+    },
+    {
+      "id": "electronics_10",
+      "name": "Fitness Smartwatch",
+      "price": 299.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "description": "Advanced fitness smartwatch with heart rate monitoring and GPS tracking."
+    },
+    {
+      "id": "electronics_11",
+      "name": "Wireless Earbuds",
+      "price": 159.99,
+      "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=400&h=400&fit=crop",
+      "description": "True wireless earbuds with active noise cancellation and premium sound quality."
+    },
+    {
+      "id": "electronics_12",
+      "name": "Digital Camera DSLR",
+      "price": 899.99,
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=400&fit=crop",
+      "description": "Professional DSLR camera with 24MP sensor and 4K video recording."
+    },
+    {
+      "id": "electronics_13",
+      "name": "Power Bank 20000mAh",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1609592806581-11e3c72c1e4c?w=400&h=400&fit=crop",
+      "description": "High-capacity power bank with fast charging and multiple USB ports."
+    },
+    {
+      "id": "electronics_14",
+      "name": "Streaming Webcam",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400&h=400&fit=crop",
+      "description": "4K streaming webcam with auto-focus and built-in microphone for content creators."
+    },
+    {
+      "id": "electronics_15",
+      "name": "Bluetooth Keyboard",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=400&fit=crop",
+      "description": "Wireless mechanical keyboard with RGB backlighting and long battery life."
+    }
+  ],
+  "home-garden": [
+    {
+      "id": "home_1",
+      "name": "Ceramic Dinnerware Set",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "description": "Elegant 16-piece ceramic dinnerware set perfect for everyday use and entertaining."
+    },
+    {
+      "id": "home_2",
+      "name": "Indoor Plant Collection",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop",
+      "description": "Set of 3 low-maintenance indoor plants with decorative pots and care instructions."
+    },
+    {
+      "id": "home_3",
+      "name": "Decorative Throw Pillows",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "description": "Set of 4 decorative throw pillows with premium fabric and hidden zippers."
+    },
+    {
+      "id": "home_4",
+      "name": "Garden Tool Set",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop",
+      "description": "Complete 8-piece garden tool set with durable handles and storage case."
+    },
+    {
+      "id": "home_5",
+      "name": "LED Floor Lamp",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "description": "Modern LED floor lamp with adjustable brightness and energy-efficient design."
+    },
+    {
+      "id": "home_6",
+      "name": "Waffle Weave Blanket",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "description": "Cozy waffle weave blanket made from premium cotton, perfect for year-round comfort."
+    },
+    {
+      "id": "home_7",
+      "name": "Wall Art Canvas Set",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop",
+      "description": "Set of 3 abstract canvas wall art pieces to enhance any room's decor."
+    },
+    {
+      "id": "home_8",
+      "name": "Essential Oil Diffuser",
+      "price": 45.99,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+      "description": "Ultrasonic essential oil diffuser with LED lighting and timer function."
+    },
+    {
+      "id": "home_9",
+      "name": "Storage Ottoman",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "description": "Multi-functional storage ottoman with upholstered seat and hidden compartment."
+    },
+    {
+      "id": "home_10",
+      "name": "Ceramic Vase Collection",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+      "description": "Set of 3 modern ceramic vases in different sizes for floral arrangements."
+    },
+    {
+      "id": "home_11",
+      "name": "Bamboo Cutting Board Set",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+      "description": "Eco-friendly bamboo cutting board set with juice groove and hanging hole."
+    },
+    {
+      "id": "home_12",
+      "name": "Aromatherapy Candle Set",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+      "description": "Set of 4 soy wax aromatherapy candles with natural essential oils."
+    },
+    {
+      "id": "home_13",
+      "name": "Wall Clock Decorative",
+      "price": 54.99,
+      "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=400&h=400&fit=crop",
+      "description": "Large decorative wall clock with minimalist design and silent movement."
+    },
+    {
+      "id": "home_14",
+      "name": "Laundry Basket Organizer",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "description": "Collapsible laundry basket with ventilation holes and carrying handles."
+    },
+    {
+      "id": "home_15",
+      "name": "Bookcase Ladder Shelf",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "description": "Industrial-style ladder bookshelf with 5 tiers for books and decor display."
+    }
+  ],
+  "beauty-skincare": [
+    {
+      "id": "beauty_1",
+      "name": "Hydrating Face Serum",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop",
+      "description": "Advanced hyaluronic acid serum that deeply hydrates and plumps the skin."
+    },
+    {
+      "id": "beauty_2",
+      "name": "Vitamin C Brightening Cream",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop",
+      "description": "Powerful vitamin C cream that brightens skin tone and reduces dark spots."
+    },
+    {
+      "id": "beauty_3",
+      "name": "Retinol Night Treatment",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
+      "description": "Gentle retinol treatment that smooths fine lines and improves skin texture overnight."
+    },
+    {
+      "id": "beauty_4",
+      "name": "Natural Face Mask Set",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=400&h=400&fit=crop",
+      "description": "Set of 5 natural clay masks for different skin types and concerns."
+    },
+    {
+      "id": "beauty_5",
+      "name": "Eye Cream Anti-Aging",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
+      "description": "Specialized eye cream that reduces puffiness and diminishes fine lines around eyes."
+    },
+    {
+      "id": "beauty_6",
+      "name": "Sunscreen SPF 50",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop",
+      "description": "Broad-spectrum sunscreen that protects against UVA/UVB rays with non-greasy formula."
+    },
+    {
+      "id": "beauty_7",
+      "name": "Rosehip Oil Treatment",
+      "price": 44.99,
+      "image": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop",
+      "description": "Pure rosehip seed oil for skin regeneration and scar reduction treatment."
+    },
+    {
+      "id": "beauty_8",
+      "name": "Charcoal Cleanser",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop",
+      "description": "Deep cleansing charcoal face wash that removes impurities and excess oil."
+    },
+    {
+      "id": "beauty_9",
+      "name": "Peptide Moisturizer",
+      "price": 52.99,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
+      "description": "Advanced peptide moisturizer that firms skin and reduces wrinkle appearance."
+    },
+    {
+      "id": "beauty_10",
+      "name": "Green Tea Toner",
+      "price": 22.99,
+      "image": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop",
+      "description": "Soothing green tea toner that balances pH and calms irritated skin."
+    },
+    {
+      "id": "beauty_11",
+      "name": "Niacinamide Serum",
+      "price": 38.99,
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop",
+      "description": "Concentrated niacinamide serum that minimizes pores and controls oil production."
+    },
+    {
+      "id": "beauty_12",
+      "name": "Aloe Vera Gel",
+      "price": 16.99,
+      "image": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop",
+      "description": "Pure aloe vera gel for soothing sunburns and moisturizing dry skin."
+    },
+    {
+      "id": "beauty_13",
+      "name": "Collagen Face Mask",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=400&h=400&fit=crop",
+      "description": "Weekly collagen treatment mask for firmer, more youthful-looking skin."
+    },
+    {
+      "id": "beauty_14",
+      "name": "Hyaluronic Acid Moisturizer",
+      "price": 41.99,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
+      "description": "Intensive hyaluronic acid moisturizer for deep hydration and plumping effect."
+    },
+    {
+      "id": "beauty_15",
+      "name": "Tea Tree Oil Treatment",
+      "price": 18.99,
+      "image": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop",
+      "description": "Natural tea tree oil treatment for acne-prone skin and blemish control."
+    }
+  ],
+  "sports": [
+    {
+      "id": "sports_1",
+      "name": "Running Shoes Premium",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=400&fit=crop",
+      "description": "High-performance running shoes with advanced cushioning and breathable mesh upper."
+    },
+    {
+      "id": "sports_2",
+      "name": "Yoga Mat Premium",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop",
+      "description": "Non-slip yoga mat made from natural rubber with excellent grip and cushioning."
+    },
+    {
+      "id": "sports_3",
+      "name": "Dumbbell Set 20lbs",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+      "description": "Adjustable dumbbell set with ergonomic handles and secure locking mechanism."
+    },
+    {
+      "id": "sports_4",
+      "name": "Basketball Official Size",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=400&fit=crop",
+      "description": "Professional-grade basketball with superior grip and indoor/outdoor versatility."
+    },
+    {
+      "id": "sports_5",
+      "name": "Tennis Racket Pro",
+      "price": 189.99,
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop",
+      "description": "Professional tennis racket with graphite construction and precision stringing."
+    },
+    {
+      "id": "sports_6",
+      "name": "Swimming Goggles",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=400&fit=crop",
+      "description": "Anti-fog swimming goggles with UV protection and comfortable silicone seal."
+    },
+    {
+      "id": "sports_7",
+      "name": "Cycling Helmet",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+      "description": "Aerodynamic cycling helmet with ventilation and adjustable fit system."
+    },
+    {
+      "id": "sports_8",
+      "name": "Resistance Bands Set",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+      "description": "Complete resistance bands set with different resistance levels and carrying case."
+    },
+    {
+      "id": "sports_9",
+      "name": "Soccer Ball Official",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=400&fit=crop",
+      "description": "FIFA-approved soccer ball with optimal bounce and weather-resistant cover."
+    },
+    {
+      "id": "sports_10",
+      "name": "Protein Shaker Bottle",
+      "price": 14.99,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+      "description": "Insulated protein shaker with mixing ball and measurement markings."
+    },
+    {
+      "id": "sports_11",
+      "name": "Golf Driver Club",
+      "price": 249.99,
+      "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop",
+      "description": "Professional golf driver with titanium head and graphite shaft for maximum distance."
+    },
+    {
+      "id": "sports_12",
+      "name": "Boxing Gloves",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+      "description": "Professional boxing gloves with premium padding and secure wrist support."
+    },
+    {
+      "id": "sports_13",
+      "name": "Badminton Racket Set",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop",
+      "description": "Complete badminton set with 2 rackets, shuttlecocks, and carrying case."
+    },
+    {
+      "id": "sports_14",
+      "name": "Foam Roller",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+      "description": "High-density foam roller for muscle recovery and myofascial release."
+    },
+    {
+      "id": "sports_15",
+      "name": "Volleyball Net Set",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=400&fit=crop",
+      "description": "Professional volleyball net set with poles, ball, and portable carrying bag."
+    }
+  ],
+  "automotive": [
+    {
+      "id": "auto_1",
+      "name": "Car Tire Set All-Season",
+      "price": 599.99,
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=400&fit=crop",
+      "description": "High-performance all-season tires with excellent traction and long tread life."
+    },
+    {
+      "id": "auto_2",
+      "name": "LED Headlight Kit",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+      "description": "Complete LED headlight conversion kit with brighter illumination and longer lifespan."
+    },
+    {
+      "id": "auto_3",
+      "name": "Car Wash Kit Deluxe",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop",
+      "description": "Complete car washing kit with premium microfiber cloths and pH-neutral soap."
+    },
+    {
+      "id": "auto_4",
+      "name": "Dash Cam 4K",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+      "description": "4K dash camera with night vision, GPS, and emergency recording features."
+    },
+    {
+      "id": "auto_5",
+      "name": "Engine Oil Synthetic 5W-30",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=400&h=400&fit=crop",
+      "description": "Premium synthetic motor oil for optimal engine performance and protection."
+    },
+    {
+      "id": "auto_6",
+      "name": "Car Seat Organizer",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=400&fit=crop",
+      "description": "Multi-compartment car seat organizer with cup holders and storage pockets."
+    },
+    {
+      "id": "auto_7",
+      "name": "Floor Mats All-Weather",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop",
+      "description": "Heavy-duty all-weather floor mats with deep tread and easy-clean design."
+    },
+    {
+      "id": "auto_8",
+      "name": "Portable Jump Starter",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+      "description": "Compact jump starter with built-in air compressor and emergency flashlight."
+    },
+    {
+      "id": "auto_9",
+      "name": "Windshield Wiper Blades",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=400&fit=crop",
+      "description": "Premium windshield wiper blades with aerodynamic design and streak-free performance."
+    },
+    {
+      "id": "auto_10",
+      "name": "Car Vacuum Cleaner",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop",
+      "description": "Cordless car vacuum with HEPA filter and multiple cleaning attachments."
+    },
+    {
+      "id": "auto_11",
+      "name": "Trailer Hitch Bike Rack",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=400&fit=crop",
+      "description": "Universal trailer hitch bike rack that holds up to 4 bicycles securely."
+    },
+    {
+      "id": "auto_12",
+      "name": "Engine Air Filter",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=400&h=400&fit=crop",
+      "description": "High-performance engine air filter for improved fuel efficiency and power."
+    },
+    {
+      "id": "auto_13",
+      "name": "Car Cover Waterproof",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop",
+      "description": "Heavy-duty waterproof car cover with mirror pockets and security cable."
+    },
+    {
+      "id": "auto_14",
+      "name": "OBD2 Scanner Diagnostic",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+      "description": "Professional OBD2 scanner with live data and diagnostic trouble code reader."
+    },
+    {
+      "id": "auto_15",
+      "name": "Roof Cargo Box",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=400&fit=crop",
+      "description": "Aero-dynamic roof cargo box with weather-sealed design and easy mounting."
+    }
+  ],
+  "mens-watches": [
+    {
+      "id": "watches_1",
+      "name": "Luxury Chronograph Watch",
+      "price": 899.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Swiss-made chronograph watch with automatic movement and stainless steel case."
+    },
+    {
+      "id": "watches_2",
+      "name": "Smartwatch Fitness",
+      "price": 299.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "description": "Advanced fitness smartwatch with heart rate monitoring and GPS tracking."
+    },
+    {
+      "id": "watches_3",
+      "name": "Classic Dress Watch",
+      "price": 249.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Timeless dress watch with leather strap and minimalist design."
+    },
+    {
+      "id": "watches_4",
+      "name": "Diving Watch Professional",
+      "price": 599.99,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&h=400&fit=crop",
+      "description": "Professional diving watch with 300m water resistance and luminous markers."
+    },
+    {
+      "id": "watches_5",
+      "name": "Pilot Watch Aviation",
+      "price": 449.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Aviation-inspired pilot watch with chronograph and rotating bezel."
+    },
+    {
+      "id": "watches_6",
+      "name": "Field Watch Military",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&h=400&fit=crop",
+      "description": "Rugged military field watch with shock resistance and tactical design."
+    },
+    {
+      "id": "watches_7",
+      "name": "Titanium Sports Watch",
+      "price": 349.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "description": "Lightweight titanium sports watch with sapphire crystal and water resistance up to 100m."
+    },
+    {
+      "id": "watches_8",
+      "name": "Vintage Mechanical Watch",
+      "price": 699.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Hand-wound mechanical watch with vintage-inspired design and visible movement."
+    },
+    {
+      "id": "watches_9",
+      "name": "Digital Sports Watch",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&h=400&fit=crop",
+      "description": "Multi-function digital sports watch with stopwatch, timer, and backlight."
+    },
+    {
+      "id": "watches_10",
+      "name": "Gold Plated Dress Watch",
+      "price": 399.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Elegant gold-plated dress watch with mother-of-pearl dial and genuine leather strap."
+    },
+    {
+      "id": "watches_11",
+      "name": "Skeleton Automatic Watch",
+      "price": 799.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "description": "Transparent skeleton watch showing the intricate automatic movement mechanism."
+    },
+    {
+      "id": "watches_12",
+      "name": "Minimalist Quartz Watch",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&h=400&fit=crop",
+      "description": "Clean and simple quartz watch with Japanese movement and stainless steel case."
+    },
+    {
+      "id": "watches_13",
+      "name": "Ceramic Bezel Watch",
+      "price": 549.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Premium ceramic bezel watch with automatic movement and scratch-resistant finish."
+    },
+    {
+      "id": "watches_14",
+      "name": "Hybrid Smart Watch",
+      "price": 279.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "description": "Hybrid smart watch combining traditional design with modern fitness tracking."
+    },
+    {
+      "id": "watches_15",
+      "name": "Limited Edition Watch",
+      "price": 1299.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop",
+      "description": "Limited edition luxury watch with diamond accents and engraved case back."
+    }
+  ]
+}
