@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
-const twilio = require('twilio');
+const twilio = require('twilio') || null;
 
 // Email configuration
 const emailTransporter = nodemailer.createTransporter({
@@ -12,11 +12,11 @@ const emailTransporter = nodemailer.createTransporter({
   }
 });
 
-// SMS configuration (Twilio)
-const twilioClient = twilio(
+// SMS configuration (Twilio) - optional
+const twilioClient = twilio ? twilio(
   process.env.TWILIO_ACCOUNT_SID,
   process.env.TWILIO_AUTH_TOKEN
-);
+) : null;
 
 // Notification preferences storage (in production, use database)
 let adminNotificationSettings = {
@@ -87,8 +87,8 @@ async function sendEmailNotification(to, subject, htmlContent, textContent) {
 // Send SMS notification
 async function sendSMSNotification(to, message) {
   try {
-    if (!adminNotificationSettings.smsNotifications) {
-      console.log('SMS notifications disabled');
+    if (!adminNotificationSettings.smsNotifications || !twilioClient) {
+      console.log('SMS notifications disabled or Twilio not configured');
       return;
     }
 
