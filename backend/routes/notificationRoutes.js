@@ -3,14 +3,21 @@ const router = express.Router();
 const nodemailer = require('nodemailer');
 const twilio = require('twilio') || null;
 
-// Email configuration
-const emailTransporter = nodemailer.createTransporter({
-  service: 'gmail',
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_APP_PASSWORD
+// Email configuration - optional
+let emailTransporter = null;
+if (nodemailer) {
+  try {
+    emailTransporter = nodemailer.createTransporter({
+      service: 'gmail',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_APP_PASSWORD
+      }
+    });
+  } catch (error) {
+    console.warn('Email transporter failed to initialize:', error.message);
   }
-});
+}
 
 // SMS configuration (Twilio) - optional
 const twilioClient = twilio ? twilio(
@@ -62,8 +69,8 @@ router.put('/settings', (req, res) => {
 // Send email notification
 async function sendEmailNotification(to, subject, htmlContent, textContent) {
   try {
-    if (!adminNotificationSettings.emailNotifications) {
-      console.log('Email notifications disabled');
+    if (!adminNotificationSettings.emailNotifications || !emailTransporter) {
+      console.log('Email notifications disabled or email transporter not configured');
       return;
     }
 
