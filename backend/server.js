@@ -8,14 +8,28 @@ const { rateLimiters } = require('./middleware/rateLimiter');
 require('dotenv').config();
 const path = require('path'); // <-- added
 
-// Import adapters and services
-const PriorityResolver = require('./services/PriorityResolver');
-const APICache = require('./services/APICache');
-const RedisCache = require('./services/RedisCache');
-const RealTimeProductSearchAdapter = require('./adapters/RealTimeProductSearchAdapter');
-const TaobaoAPIAdapter = require('./adapters/TaobaoAPIAdapter');
-const BestBuyAdapter = require('./adapters/BestBuyAdapter');
-const DummyJSONAdapter = require('./adapters/DummyJSONAdapter');
+// Import adapters and services - Make optional to prevent deployment failures
+let PriorityResolver, APICache, RedisCache, RealTimeProductSearchAdapter, TaobaoAPIAdapter, BestBuyAdapter, DummyJSONAdapter;
+
+try {
+  PriorityResolver = require('./services/PriorityResolver');
+  APICache = require('./services/APICache');
+  RedisCache = require('./services/RedisCache');
+  RealTimeProductSearchAdapter = require('./adapters/RealTimeProductSearchAdapter');
+  TaobaoAPIAdapter = require('./adapters/TaobaoAPIAdapter');
+  BestBuyAdapter = require('./adapters/BestBuyAdapter');
+  DummyJSONAdapter = require('./adapters/DummyJSONAdapter');
+} catch (error) {
+  console.warn('Some optional services/adapters failed to load:', error.message);
+  // Set defaults
+  PriorityResolver = null;
+  APICache = null;
+  RedisCache = null;
+  RealTimeProductSearchAdapter = null;
+  TaobaoAPIAdapter = null;
+  BestBuyAdapter = null;
+  DummyJSONAdapter = null;
+}
 
 // Import routes
 const authRoutes = require('./routes/authRoutes');
@@ -46,8 +60,14 @@ setTimeout(async () => {
   }
 }, 2000); // Wait 2 seconds for connection to establish
 
-// Initialize Redis cache
-RedisCache.connect();
+// Initialize Redis cache - optional
+if (RedisCache && RedisCache.connect) {
+  try {
+    RedisCache.connect();
+  } catch (error) {
+    console.warn('Redis connection failed:', error.message);
+  }
+}
 
 // Middleware
 app.use(helmet());
@@ -74,15 +94,36 @@ app.use('/api/search', rateLimiters.search);
 app.use('/api/admin', rateLimiters.admin);
 app.use('/api/', rateLimiters.general);
 
-// Initialize adapters - Simplified to DummyJSON + Fallback JSON
-const adapters = {
-  dummyjson: new DummyJSONAdapter(), // Primary source
-};
+// Initialize adapters - Make optional to prevent deployment failures
+const adapters = {};
 
-// Initialize priority resolver
-const priorityResolver = new PriorityResolver();
+if (DummyJSONAdapter) {
+  try {
+    adapters.dummyjson = new DummyJSONAdapter();
+  } catch (error) {
+    console.warn('DummyJSONAdapter failed to initialize:', error.message);
+  }
+}
 
-// API Cache service is now used
+// Initialize priority resolver - optional
+let priorityResolver = null;
+if (PriorityResolver) {
+  try {
+    priorityResolver = new PriorityResolver();
+  } catch (error) {
+    console.warn('PriorityResolver failed to initialize:', error.message);
+  }
+}
+
+// API Cache service - optional
+let apiCache = null;
+if (APICache) {
+  try {
+    apiCache = new APICache();
+  } catch (error) {
+    console.warn('APICache failed to initialize:', error.message);
+  }
+}
 
 // Routes
 app.use('/api/auth', authRoutes);
@@ -103,7 +144,7 @@ app.get('/api/products', async (req, res) => {
     const { limit = 20, offset = 0, q, category } = req.query;
     const cacheKey = `products_${limit}_${offset}_${q || ''}_${category || ''}`;
 
-    let products = await APICache.get('products', { limit, offset, q, category });
+    let products = apiCache ? await apiCache.get('products', { limit, offset, q, category }) : null;
 
     if (!products) {
       try {
@@ -208,7 +249,7 @@ app.get('/api/products', async (req, res) => {
           }
         }
 
-        await APICache.set('products', { limit, offset, q, category }, products);
+        if (apiCache) await apiCache.set('products', { limit, offset, q, category }, products);
       } catch (error) {
         console.error('All product sources failed:', error);
         // Emergency fallback
@@ -232,7 +273,7 @@ app.get('/api/products', async (req, res) => {
 app.get('/api/products/featured', async (req, res) => {
   try {
     const { limit = 10 } = req.query;
-    const featuredProducts = await APICache.get('featured_products', { limit });
+    const featuredProducts = apiCache ? await apiCache.get('featured_products', { limit }) : null;
 
     if (featuredProducts) {
       return res.json(featuredProducts);
@@ -255,7 +296,7 @@ app.get('/api/products/featured', async (req, res) => {
       allFeatured = allProducts.slice(0, parseInt(limit));
     }
 
-    await APICache.set('featured_products', { limit }, allFeatured);
+    if (apiCache) await apiCache.set('featured_products', { limit }, allFeatured);
 
     res.json(allFeatured);
   } catch (error) {
@@ -268,7 +309,7 @@ app.get('/api/products/featured', async (req, res) => {
 app.get('/api/products/:id', async (req, res) => {
   try {
     const { id } = req.params;
-    const product = await APICache.get('product', { id });
+    const product = apiCache ? await apiCache.get('product', { id }) : null;
 
     if (product) {
       return res.json(product);
@@ -294,7 +335,7 @@ app.get('/api/products/:id', async (req, res) => {
       const foundProduct = localProducts.find(p => p.id === id);
       if (foundProduct) {
         console.log('✅ Found product in local products.json:', id, '- Title:', foundProduct.title, '- Price:', foundProduct.price.amount, foundProduct.price.currency);
-        await APICache.set('product', { id }, foundProduct);
+        if (apiCache) await apiCache.set('product', { id }, foundProduct);
         return res.json(foundProduct);
       } else {
         console.log('❌ Product not found in local products.json:', id, '- Available IDs sample:', localProducts.slice(0, 10).map(p => p.id));
@@ -314,7 +355,7 @@ app.get('/api/products/:id', async (req, res) => {
         if (dbProduct) {
           console.log('✅ Found product in MongoDB:', id);
           const productData = dbProduct.toObject();
-          await APICache.set('product', { id }, productData);
+          if (apiCache) await apiCache.set('product', { id }, productData);
           return res.json(productData);
         }
       }
@@ -329,7 +370,7 @@ app.get('/api/products/:id', async (req, res) => {
         const foundProduct = await adapters.dummyjson.getProductDetails(productId);
         if (foundProduct) {
           console.log('✅ Found product via DummyJSON API:', id);
-          await APICache.set('product', { id }, foundProduct);
+          if (apiCache) await apiCache.set('product', { id }, foundProduct);
           return res.json(foundProduct);
         }
       } catch (error) {
@@ -344,7 +385,7 @@ app.get('/api/products/:id', async (req, res) => {
       const foundProduct = allProducts.find(p => p.id === id);
       if (foundProduct) {
         console.log('✅ Found product in fallback-products.json:', id);
-        await APICache.set('product', { id }, foundProduct);
+        if (apiCache) await apiCache.set('product', { id }, foundProduct);
         return res.json(foundProduct);
       }
     } catch (error) {
