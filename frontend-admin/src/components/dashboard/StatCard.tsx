@@ -11,17 +11,24 @@ interface StatCardProps {
     isPositive: boolean;
   };
   className?: string;
+  loading?: boolean;
 }
 
-const StatCard = ({ title, value, icon: Icon, trend, className }: StatCardProps) => {
+const StatCard = ({ title, value, icon: Icon, trend, className, loading }: StatCardProps) => {
   return (
     <Card className={cn("transition-smooth hover:shadow-soft-lg", className)}>
       <CardContent className="p-6">
         <div className="flex items-start justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium text-muted-foreground">{title}</p>
-            <p className="mt-2 text-3xl font-bold text-foreground">{value}</p>
-            {trend && (
+            <p className="mt-2 text-3xl font-bold text-foreground">
+              {loading ? (
+                <div className="h-8 bg-muted animate-pulse rounded"></div>
+              ) : (
+                value
+              )}
+            </p>
+            {trend && !loading && (
               <p className={cn(
                 "mt-2 text-sm font-medium",
                 trend.isPositive ? "text-green-600" : "text-red-600"

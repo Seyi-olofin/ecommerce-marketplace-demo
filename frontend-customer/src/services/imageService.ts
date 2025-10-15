@@ -77,9 +77,9 @@ export class ImageService {
       // Local image not found, continue to external sources
     }
 
-    // Generate Unsplash image based on product title and category
+    // Generate high-quality Unsplash image based on product title and category
     const searchTerm = `${title} ${category}`.toLowerCase().replace(/[^a-z0-9\s]/g, '');
-    const unsplashUrl = `https://source.unsplash.com/random/600x600/?${encodeURIComponent(searchTerm)},product,${category}`;
+    const unsplashUrl = `https://images.unsplash.com/600x600/?${encodeURIComponent(searchTerm)},product,${category}&w=600&h=600&fit=crop&crop=center&auto=format&q=80`;
 
     this.cache.set(cacheKey, unsplashUrl);
     return unsplashUrl;

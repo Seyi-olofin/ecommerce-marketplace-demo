@@ -219,6 +219,15 @@ const createOrder = async (req, res) => {
 
     console.log('Demo order created:', orderNumber);
 
+    // Send notification to admin dashboard (in demo mode, just log it)
+    console.log('🔔 NEW ORDER NOTIFICATION:', {
+      orderId: orderNumber,
+      customerName: shippingAddress?.firstName + ' ' + (shippingAddress?.lastName || ''),
+      total: totalAmount.toFixed(2),
+      paymentMethod: paymentMethod,
+      timestamp: new Date().toISOString()
+    });
+
     res.status(201).json(order);
   } catch (error) {
     console.error('Error creating demo order:', error);
