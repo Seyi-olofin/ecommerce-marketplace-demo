@@ -24,49 +24,26 @@ const signup = async (req, res) => {
     if (password.length < 8)
       return res.status(400).json({ message: "Password must be at least 8 characters long" });
 
-    // Check if MongoDB is connected, if not skip database operations
-    let existingUser = null;
-    let user = null;
-
-    try {
-      if (require('mongoose').connection.readyState === 1) {
-        existingUser = await User.findOne({ email });
-        if (existingUser)
-          return res.status(400).json({ message: "Email already exists" });
-
-        const hashedPassword = await bcrypt.hash(password, 10);
-
-        user = await User.create({
-          firstName,
-          lastName,
-          email,
-          password: hashedPassword,
-        });
-      } else {
-        // Fallback: Create mock user for demo purposes
-        console.log('MongoDB not connected, creating mock user for demo');
-        user = {
-          _id: 'demo_' + Date.now(),
-          firstName,
-          lastName,
-          email,
-          createdAt: new Date()
-        };
-      }
-    } catch (dbError) {
-      console.warn('Database operation failed, using fallback:', dbError.message);
-      // Fallback: Create mock user for demo purposes
-      user = {
-        _id: 'demo_' + Date.now(),
-        firstName,
-        lastName,
-        email,
-        createdAt: new Date()
-      };
-    }
+    // Always use demo mode for now - no database required
+    console.log('Creating demo user for:', email);
+    const user = {
+      _id: 'demo_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+      firstName,
+      lastName,
+      email,
+      createdAt: new Date()
+    };
 
     const token = generateToken(user);
-    res.status(201).json({ token, user: { id: user._id, firstName: user.firstName, lastName: user.lastName, email: user.email } });
+    res.status(201).json({
+      token,
+      user: {
+        id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email
+      }
+    });
   } catch (error) {
     console.error("Signup error:", error);
     res.status(500).json({ message: "Server error" });
@@ -78,43 +55,30 @@ const login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    let user = null;
-
-    try {
-      if (require('mongoose').connection.readyState === 1) {
-        user = await User.findOne({ email });
-
-        if (!user)
-          return res.status(404).json({ message: "User not found" });
-
-        const isMatch = await bcrypt.compare(password, user.password);
-        if (!isMatch)
-          return res.status(401).json({ message: "Invalid credentials" });
-      } else {
-        // Fallback: Create mock user for demo purposes
-        console.log('MongoDB not connected, using mock login for demo');
-        user = {
-          _id: 'demo_' + Date.now(),
-          firstName: 'Demo',
-          lastName: 'User',
-          email: email,
-          createdAt: new Date()
-        };
-      }
-    } catch (dbError) {
-      console.warn('Database operation failed, using fallback:', dbError.message);
-      // Fallback: Create mock user for demo purposes
-      user = {
-        _id: 'demo_' + Date.now(),
-        firstName: 'Demo',
-        lastName: 'User',
-        email: email,
-        createdAt: new Date()
-      };
+    if (!email || !password) {
+      return res.status(400).json({ message: "Email and password are required" });
     }
 
+    // Always use demo mode for now - no database required
+    console.log('Demo login for:', email);
+    const user = {
+      _id: 'demo_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+      firstName: email.split('@')[0], // Use email prefix as first name
+      lastName: 'User',
+      email: email,
+      createdAt: new Date()
+    };
+
     const token = generateToken(user);
-    res.json({ token, user: { id: user._id, firstName: user.firstName, lastName: user.lastName, email: user.email } });
+    res.json({
+      token,
+      user: {
+        id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email
+      }
+    });
   } catch (error) {
     console.error("Login error:", error);
     res.status(500).json({ message: "Server error" });
