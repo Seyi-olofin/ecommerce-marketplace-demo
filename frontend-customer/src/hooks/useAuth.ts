@@ -34,6 +34,7 @@ export interface SignupData {
 }
 
 const AUTH_STORAGE_KEY = 'auth_user';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 
 export const useAuth = () => {
   const [state, setState] = useState<AuthState>({
@@ -77,7 +78,7 @@ export const useAuth = () => {
     setState(prev => ({ ...prev, isLoading: true, error: null }));
 
     try {
-      const response = await fetch('/api/auth/login', {
+      const response = await fetch(`${API_BASE}/api/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -128,7 +129,7 @@ export const useAuth = () => {
     setState(prev => ({ ...prev, isLoading: true, error: null }));
 
     try {
-      const response = await fetch('/api/auth/signup', {
+      const response = await fetch(`${API_BASE}/api/auth/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -180,7 +181,7 @@ export const useAuth = () => {
     setState(prev => ({ ...prev, isLoading: true }));
 
     try {
-      await fetch('/api/auth/logout', {
+      await fetch(`${API_BASE}/api/auth/logout`, {
         method: 'POST',
         credentials: 'include',
       });
@@ -231,7 +232,7 @@ export const useAuth = () => {
         return;
       }
 
-      const response = await fetch('/api/auth/me', {
+      const response = await fetch(`${API_BASE}/api/auth/me`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
